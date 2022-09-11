@@ -27,3 +27,12 @@ npm i -g json-server
 json-server --port 1010 --watch db.json
 
 
+//to make global api link from backend without installing json server
+go to package.json on scripts part write: "  "server":"json-server --watch db.json --port 8080",  "
+and open terminal write " npm run server  " 
+
+
+//to decrease node version
+link: https://drive.google.com/file/d/1oRsYMN-J50r0dlCgovUSPKjU6JBql9bl/view?usp=sharing
+
+

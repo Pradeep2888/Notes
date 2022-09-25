@@ -35,4 +35,19 @@ and open terminal write " npm run server  "
 //to decrease node version
 link: https://drive.google.com/file/d/1oRsYMN-J50r0dlCgovUSPKjU6JBql9bl/view?usp=sharing
 
+//to test with jest
+Steps
+1.Run npm init to initialise your application, and press Enter for all the questions
+this will also craete a package.json file
+2.To install jest; npm install --save-dev jest
+this will create the node_modules folder and the package-lock.json file.
+3.Create 2 files, index.js, and index.test.js
+4.Create a function sum in index.js and export it using, module.exports = sum;
+5.Import the function sum in the test file (index.test.js) using const sum = require('./index')
+6.Change the test script in package.json to "test" : "jest --watchAll"
+7.and run the test cases using npm run test
+8.to run a single test file, npm run test <path-to-the-test-file>
+
+//to test with React Testing
+
 
